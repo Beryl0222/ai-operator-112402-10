@@ -1,0 +1,103 @@
+{
+  "clusters": 24,
+  "tailRows": 4096,
+  "pageRows": 128,
+  "top": 12,
+  "openLimit": 12,
+  "turnLimit": 24,
+  "workBytes": 81920,
+  "aliasMap": [
+    [
+      [
+        0,
+        14
+      ],
+      [
+        9,
+        9
+      ],
+      19969
+    ],
+    [
+      [
+        8,
+        2
+      ],
+      [
+        14,
+        130
+      ],
+      34093
+    ],
+    [
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        13
+      ],
+      19981
+    ]
+  ],
+  "dominant": [
+    0,
+    1,
+    9
+  ],
+  "headline": [
+    4.125,
+    3.25,
+    0.5,
+    0.125
+  ],
+  "changelog": [
+    [
+      "v2",
+      9,
+      9,
+      19971
+    ]
+  ],
+  "separate": [
+    [
+      "rare",
+      19969
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "filter",
+      [
+        19981
+      ]
+    ],
+    [
+      "page",
+      2
+    ],
+    [
+      "switch",
+      "v2"
+    ],
+    [
+      "late",
+      9,
+      0
+    ],
+    [
+      "history",
+      "v1",
+      1
+    ]
+  ],
+  "confidence": {
+    "jointGoal": true,
+    "intervalTolerance": 1e-07,
+    "prefixCount": 24,
+    "normalizerAudit": "sum-exp of all identified physical entries"
+  }
+}
